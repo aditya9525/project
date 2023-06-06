@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 37px;
+    background: #FFFFFF;
+    width: 1069px;
+    height: 621px;
+}
+.top-sub-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px 20px;
+    gap: 181px;
+
+    width: 1069px;
+    height: 210px;
+}
+
+.logo{
+    width: 122.88px;
+    height: 92.05px;
+}
+.text{
+    width: 268px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0px;
+    gap: 16px;
+    height: 58px;
+}
+.sweet{
+    width: 167px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+}
+.product{
+    width: 85px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 146px;
+    height: 140px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    width: 146px;
+    height: 65px;
+    background: #32C1FF;
+    border-radius: 8px;
+}
+
+
+.bottom-suv-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 70px;
+    width: 1109px;
+    height: 242px;
+}
+
+.priceList{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 19px;
+    width: 249px;
+    height: 229px;
+    border: 1px solid #E4E4E4;
+}
+
+.name{
+    width: 72px;
+    height: 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.items-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding: 0px;
+    gap: 5px;
+    width: 219px;
+    height: 141px;
+}
+
+.fruit-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0px;
+    gap: 20px;
+    width: 201px;
+    height: 44px;
+
+}
+.apple{
+    width: 66px;
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #C7C7C7;
+}
+.alerts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 11px;
+
+    width: 377px;
+    height: 192px;
+
+}
+.deal{
+    width: 171px;
+    height: 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.msg{
+    width: 118px;
+    height: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+input-email{
+    box-sizing: border-box;
+
+    width: 377px;
+    height: 40px;
+
+    border: 1px solid #ABABAB;
+}
